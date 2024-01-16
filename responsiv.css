@@ -1,0 +1,111 @@
+@media screen and (max-width:600px) {
+    nav {
+        margin-top: 19px;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-bar div {
+        width: 100%;
+    }
+
+    .nav-title p {
+        font-size: 21px;
+    }
+
+    .nav-title p span {
+        font-size: 21px;
+    }
+
+    .nav-links {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .nav-links ul {
+        list-style: none;
+        gap: 5px;
+    }
+
+    .nav-links ul a {
+        font-size: 12px;
+    }
+
+    .nav-links ul a span {
+        font-size: 13px;
+    }
+
+    /* container */
+
+    .banner-content {
+        margin: 10px auto;
+        text-align: center;
+        height: 500px;
+        background-size: cover;
+    }
+
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    /* banner */
+    .banner-content h1 {
+        padding-top: 80px;
+        font-size: 22px;
+    }
+
+    .banner-content p {
+        padding-bottom: 32px;
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+
+    .banner-input {
+        display: inline-flex;
+        flex-direction: column;
+        padding: 16px;
+        gap: 10px;
+    }
+
+    .banner-input input {
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    /* Popular */
+    .popular {
+        flex-direction: column;
+    }
+
+    .popular div {
+        max-width: 100%;
+    }
+
+    /* Destination section */
+    .destination {
+        margin-top: 24px;
+    }
+
+    .desti-img {
+        gap: 18px;
+        grid-template-areas:
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7"
+        ;
+    }
+
+    .desti-img img {
+        width: 100%;
+        
+    }
+}
