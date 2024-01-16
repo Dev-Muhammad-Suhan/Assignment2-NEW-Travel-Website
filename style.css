@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* sheared */
@@ -426,7 +433,7 @@ nav {
     margin-bottom: 16px;
     border: none;
     display: block;
-    width: 350px;
+    width: 300px;
     height: 52px;
     flex-shrink: 1;
     border-radius: 8px;
@@ -435,7 +442,7 @@ nav {
 
 .news-box button {
     margin-top: 8px;
-    width: 350px;
+    width: 300px;
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -450,6 +457,7 @@ nav {
 
 .news-box hr {
     border: none;
+    width: 300px;
     height: 1px;
     margin-bottom: 30px;
     background: rgba(19, 19, 24, 0.10);
@@ -463,7 +471,7 @@ nav {
 }
 
 .news-box p {
-    max-width: 350px;
+    max-width: 310px;
     margin-top: 16px;
     margin-bottom: 24px;
 }
@@ -477,4 +485,79 @@ nav {
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    height: 450px;
+    padding-top: 110px;
+}
+
+.footer-title img {
+    width: 40px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-title p {
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-title p span {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footre-desc {
+    width: 769px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.footer-link img {
+    width: 30px;
+}
+
+.footer-link {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+footer .container hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
+.footer-copyright p {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
 }
