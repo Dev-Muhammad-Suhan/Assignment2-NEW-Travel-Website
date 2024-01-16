@@ -12,11 +12,11 @@
     }
 
     .nav-title p {
-        font-size: 21px;
+        font-size: 30px;
     }
 
     .nav-title p span {
-        font-size: 21px;
+        font-size: 30px;
     }
 
     .nav-links {
@@ -26,15 +26,15 @@
 
     .nav-links ul {
         list-style: none;
-        gap: 5px;
+        gap: 7px;
     }
 
     .nav-links ul a {
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .nav-links ul a span {
-        font-size: 13px;
+        font-size: 20px;
     }
 
     /* container */
@@ -106,29 +106,56 @@
 
     .desti-img img {
         width: 100%;
-        
+
     }
 
     /* Why Choose Us Section */
-    .box-row1{
+    .box-row1 {
         flex-direction: column;
         gap: 24px;
     }
 
     .choose-us-box .box-row1 .box-01 {
-        width:85%;
-        height: 250px;
-    }
-    .choose-us-box .box-row1 .box-02 {
-        width:85%;
+        width: 85%;
         height: 250px;
     }
 
-    .box-row2{
+    .choose-us-box .box-row1 .box-02 {
+        width: 85%;
+        height: 250px;
+    }
+
+    .box-row2 {
         flex-direction: column;
     }
+
     .choose-us-box .box-row2 .box-03 {
         width: 85%;
         height: 250px;
     }
+
+    /* Perfect Place Section */
+    .perfect-place {
+        flex-direction: column;
+    }
+
+    .perfect-place div {
+        width: 100%;
+    }
+    .p-place-content h1 {
+        font-size: 30px;
+        max-width: 248px;
+    }
+    .p-place-content p {
+        min-width: 335px;
+        margin: 16px 0px;
+
+    }
+    .p-place-content .btn-primary{
+        margin-bottom: 24px;
+    }
+    .p-place-img{
+        min-height: 200px;
+    }
+
 }
