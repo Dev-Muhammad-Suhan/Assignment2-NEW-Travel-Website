@@ -447,10 +447,11 @@ nav {
 }
 
 .news-box input {
+    padding-left: 10px;
     margin-bottom: 16px;
     border: none;
     display: block;
-    width: 300px;
+    width: 290px;
     height: 52px;
     flex-shrink: 1;
     border-radius: 8px;
