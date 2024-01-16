@@ -27,6 +27,7 @@
     .nav-links ul {
         list-style: none;
         gap: 7px;
+        margin-bottom: 20px;
     }
 
     .nav-links ul a {
@@ -53,12 +54,12 @@
 
     /* banner */
     .banner-content h1 {
-        padding-top: 80px;
-        font-size: 22px;
+        padding-top: 85px;
+        font-size: 30px;
     }
 
     .banner-content p {
-        padding-bottom: 32px;
+        padding-bottom: 25px;
         font-size: 14px;
         line-height: 16px;
 

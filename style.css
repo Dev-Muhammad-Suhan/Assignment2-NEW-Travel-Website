@@ -74,7 +74,7 @@ nav {
     width: 53px;
     height: 58px;
     flex-shrink: 0;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .nav-title p {
@@ -130,7 +130,8 @@ nav {
 }
 
 .banner-content h1 {
-    padding-top: 160px;
+    padding-top: 106px;
+    padding-bottom: 24px;
     color: #ffffff;
     font-size: 64px;
     font-weight: 800;
@@ -144,6 +145,7 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    padding-bottom: 40px;
 
 }
 
@@ -220,6 +222,12 @@ nav {
     text-align: center;
     margin-bottom: 48px;
 }
+.desti-content h1{
+    margin-bottom: 24px;
+}
+.desti-content p{
+    max-width: 633px;
+}
 
 /* Using Grid */
 .d-img-1 {
@@ -275,11 +283,18 @@ nav {
     text-align: center;
     margin-bottom: 48px;
 }
-
+.choose-us-content h1{
+    margin-bottom: 24px;
+}
+.choose-us-content p{
+    max-width: 643px;
+}
 .choose-us-box .box-row1 img {
     max-width: 64px;
 }
-
+.box-01 h4, .box-02 h4, .box-03 h4{
+    margin: 32px 0px 16px 0px;
+} 
 .choose-us-box .box-row2 img {
     max-width: 64px;
 }
@@ -396,10 +411,12 @@ nav {
 }
 
 .p-place-content h1 {
+    margin-bottom: 24px;
     max-width: 448px;
 }
 
 .p-place-content p {
+    margin-bottom: 24px;
     max-width: 532px;
 }
 
