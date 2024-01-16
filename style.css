@@ -227,13 +227,101 @@ nav {
     display: grid;
     gap: 24px;
     grid-template-areas:
-    "img1   img1    img1    img1    img2    img2    img2    img2"
-    "img3   img3    img4    img4    img4    img4    img5    img5"
-    "img6   img6    img6    img7    img7    img7    img7    img7"
+        "img1   img1    img1    img1    img2    img2    img2    img2"
+        "img3   img3    img4    img4    img4    img4    img5    img5"
+        "img6   img6    img6    img7    img7    img7    img7    img7"
     ;
 }
 
-.desti-img img{
+.desti-img img {
     width: 100%;
     height: 100%;
 }
+
+
+/* Why Choose us Section */
+.choose-us {
+    margin-top: 120px;
+}
+
+.choose-us-content {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.choose-us-box .box-row1 img {
+    max-width: 64px;
+}
+
+.choose-us-box .box-row2 img {
+    max-width: 64px;
+}
+
+/* Row-1 */
+.choose-us-box .box-row1 .box-01 {
+    padding: 32px;
+    width: 45%;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.choose-us-box .box-row1 .box-02 {
+    padding: 32px;
+    width: 40%;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+/* Row-2 */
+.choose-us-box .box-row2 .box-03 {
+    padding: 32px;
+    width: 45%;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.box-01 h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.box-02 h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.box-03 h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.box-01 p{
+    max-width: 486px;
+}
+.box-02 p{
+    max-width: 486px;
+}
+.box-03 p{
+    max-width: 486px;
+}
+
+
+.box-row1{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-row2{
+    display: flex;
+    justify-content: center;
+}
+
