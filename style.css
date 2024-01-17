@@ -42,6 +42,7 @@
     color: #FFF;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* Navbar start */
@@ -340,7 +341,7 @@ nav {
     flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
-    background: rgba(251, 181, 99, 0.05);
+    background: rgba(251, 180, 99, 0.082);
 }
 
 .choose-us-box .box-row1 .box-02 {
@@ -503,6 +504,7 @@ nav {
     text-align: center;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
 
 }
 
@@ -583,6 +585,7 @@ footer {
 
 .footer-link img {
     width: 30px;
+    cursor: pointer;
 }
 
 .footer-link {
