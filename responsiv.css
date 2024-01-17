@@ -111,6 +111,13 @@
 
     }
 
+    /* New: Time to Travel Section */
+    .time-content p{
+        width: 300px;
+        max-width: 330px;
+        padding-top: 20px;
+    }
+
     /* Why Choose Us Section */
     .box-row1 {
         flex-direction: column;
