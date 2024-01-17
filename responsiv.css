@@ -118,12 +118,12 @@
     }
 
     .choose-us-box .box-row1 .box-01 {
-        width: 85%;
+        width: 80%;
         height: 250px;
     }
 
     .choose-us-box .box-row1 .box-02 {
-        width: 85%;
+        width: 80%;
         height: 250px;
     }
 
@@ -132,7 +132,7 @@
     }
 
     .choose-us-box .box-row2 .box-03 {
-        width: 85%;
+        width: 80%;
         height: 250px;
     }
 
@@ -176,6 +176,19 @@
     .news-img {
         width: 100%;
         height: 422px;
+    }
+    .news-tag {
+        width: 230px;
+        height: 85px;
+    }
+    .news-tag p{
+        padding-top: 12px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .news-tag h3{
+        font-size: 22.138px;
+        font-weight: 800;
     }
 
     /* Footer Section */
