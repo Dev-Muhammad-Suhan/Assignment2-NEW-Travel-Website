@@ -138,6 +138,7 @@ nav {
 }
 
 .banner-content p {
+    max-width: 676px;
     color: #e7e7e7;
     text-align: center;
     font-family: Mulish;
@@ -222,41 +223,66 @@ nav {
     text-align: center;
     margin-bottom: 48px;
 }
-.desti-content h1{
+
+.desti-content h1 {
     margin-bottom: 24px;
 }
-.desti-content p{
+
+.desti-content p {
     max-width: 633px;
 }
 
 /* Using Grid */
 .d-img-1 {
+    position: relative;
     grid-area: img1;
 }
 
 .d-img-2 {
+    position: relative;
     grid-area: img2;
 }
 
 .d-img-3 {
+    position: relative;
     grid-area: img3;
 }
 
 .d-img-4 {
+    position: relative;
     grid-area: img4;
 }
 
 .d-img-5 {
+    position: relative;
     grid-area: img5;
 }
 
 .d-img-6 {
+    position: relative;
     grid-area: img6;
 }
 
 .d-img-7 {
+    position: relative;
     grid-area: img7;
 }
+/* Center Text Alignment */
+.d-name-all {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
 
 .desti-img {
     display: grid;
@@ -283,18 +309,25 @@ nav {
     text-align: center;
     margin-bottom: 48px;
 }
-.choose-us-content h1{
+
+.choose-us-content h1 {
     margin-bottom: 24px;
 }
-.choose-us-content p{
+
+.choose-us-content p {
     max-width: 643px;
 }
+
 .choose-us-box .box-row1 img {
     max-width: 64px;
 }
-.box-01 h4, .box-02 h4, .box-03 h4{
+
+.box-01 h4,
+.box-02 h4,
+.box-03 h4 {
     margin: 32px 0px 16px 0px;
-} 
+}
+
 .choose-us-box .box-row2 img {
     max-width: 64px;
 }

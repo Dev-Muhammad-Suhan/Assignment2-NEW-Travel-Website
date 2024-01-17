@@ -26,16 +26,17 @@
 
     .nav-links ul {
         list-style: none;
-        gap: 7px;
+        gap: 5px;
+        margin-top: 5px;
         margin-bottom: 20px;
     }
 
     .nav-links ul a {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .nav-links ul a span {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     /* container */
